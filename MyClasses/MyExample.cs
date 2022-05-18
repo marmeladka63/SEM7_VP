@@ -2,7 +2,9 @@
 using System;
 public class MyExample
 
-
+///<Summary>
+///Сздание массива от min до max
+///</Summary>
     
 
 
