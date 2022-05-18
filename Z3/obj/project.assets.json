@@ -1,26 +1,45 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MyClasses/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyClasses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyClasses.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyClasses/1.0.0": {
+      "type": "project",
+      "path": "../MyClasses/MyClasses.csproj",
+      "msbuildProject": "../MyClasses/MyClasses.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MyClasses >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Valentina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\Z3.csproj",
+      "projectUniqueName": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\Z3.csproj",
       "projectName": "Z3",
-      "projectPath": "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\Z3.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\obj\\",
+      "projectPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\Z3.csproj",
+      "packagesPath": "C:\\Users\\Valentina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Valentina\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\MyClasses.csproj": {
+              "projectPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\MyClasses.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

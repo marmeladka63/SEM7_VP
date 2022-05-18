@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\Z3.csproj": {}
+    "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\Z3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\Z3.csproj": {
+    "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\MyClasses.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\Z3.csproj",
-        "projectName": "Z3",
-        "projectPath": "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\Z3.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\учеба\\Введение в програмиирование\\SEM7_VP\\Z1\\Z3\\obj\\",
+        "projectUniqueName": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\MyClasses.csproj",
+        "projectName": "MyClasses",
+        "projectPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\MyClasses.csproj",
+        "packagesPath": "C:\\Users\\Valentina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Valentina\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,63 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\Z3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\Z3.csproj",
+        "projectName": "Z3",
+        "projectPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\Z3.csproj",
+        "packagesPath": "C:\\Users\\Valentina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\Z3\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Valentina\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\MyClasses.csproj": {
+                "projectPath": "C:\\Users\\Valentina\\Documents\\Учеба Разработчик\\4_Введение в программирование Семинары\\SEM_7VP\\MyClasses\\MyClasses.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
