@@ -18,23 +18,23 @@ Console.Write("Ввведите номер строки i=");
 int n = int.Parse(Console.ReadLine());
 Console.Write("Введите номер столбца j=");
 int m = int.Parse(Console.ReadLine());
+int num=0;
 for (int i = 0; i < 3; i++)
 {
     for (int j = 0; j < 3; j++)
     {
         if (i == n && j == m)
         {
-            Console.WriteLine(arr[n, m]);
-        }
-        else
-        {
-
-            Console.WriteLine("Такого числа нет");
+            num= arr[n, m];
+              
             }
 
     }
     
 }
+if (n>=3^m>=3) Console.Write("Такого числа нет");
+else Console.Write(num);
+
 
 
 
